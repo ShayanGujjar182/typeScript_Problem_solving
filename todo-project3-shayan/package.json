@@ -1,19 +1,20 @@
 {
-  "name": "calculator-project-shayan",
+  "name": "todoapp-shayan",
   "version": "1.0.1",
-  "description": "This is the Simple calculator",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "todoapp-shayan": "bin/todo.js"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bin": {
-    "calculator-project-shayan": "bin/index.js"
-  },
   "dependencies": {
-    "inquirer": "^9.2.10"
+    "inquirer": "^9.2.11"
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.3"
